@@ -82,6 +82,7 @@ a {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .bg-primary-2 {
     background-color: #1b1d33;
 }
@@ -256,7 +257,6 @@ body {
 .btn {
     font-weight: 700;
 }
-
 
 
 .btn {
@@ -783,6 +783,7 @@ select.contact-form {
     background-color: #ffe0e0;
     color: #ff0000 !important;
 }
+
 .preheader2 {
     background: #dfe1ff;
     font-weight: 800;
@@ -793,6 +794,7 @@ select.contact-form {
     padding-right: 16px !important;
     border-radius: 24px !important;
 }
+
 .preheader3 {
     background: #dfe1ff;
     font-weight: 900;
@@ -803,6 +805,7 @@ select.contact-form {
     padding-right: 16px !important;
     border-radius: 24px !important;
 }
+
 /*Form Fix*/
 
 .form-control {
@@ -920,9 +923,8 @@ select.contact-form {
 
 .story {
     border: 2px solid transparent;
-    background:
-        linear-gradient(to right, white, white),
-        linear-gradient(15deg, #fbad50, #e95950);
+    background: linear-gradient(to right, white, white),
+    linear-gradient(15deg, #fbad50, #e95950);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     display: inline-block;
@@ -1088,7 +1090,6 @@ select.contact-form {
 }
 
 
-
 .testimonial .flag {
     position: absolute;
     display: block;
@@ -1229,7 +1230,6 @@ nav .dropdown-menu {
 .dropdown-item:focus {
     background-color: transparent !important;
 }
-
 
 
 .nav-item .feature {
@@ -2724,7 +2724,6 @@ https://flickity.metafizzy.co
 }
 
 
-
 .flickity-enabled {
     position: relative
 }
@@ -2947,9 +2946,11 @@ h4,
 .preheader {
     font-size: 0.75rem;
 }
+
 .preheader2 {
     font-size: 1.2rem;
 }
+
 .preheader3 {
     font-size: 1.2rem;
 }
@@ -3000,9 +3001,11 @@ h6,
     .preheader {
         font-size: 0.65rem;
     }
+
     .preheader2 {
         font-size: 1rem;
     }
+
     .preheader3 {
         font-size: 1.05rem;
     }
@@ -3020,9 +3023,11 @@ h6,
     .preheader {
         font-size: 0.75rem !important;
     }
+
     .preheader2 {
         font-size: 1.05rem !important;
     }
+
     .preheader3 {
         font-size: 1.2rem !important;
     }
@@ -3064,9 +3069,11 @@ h6,
     .preheader {
         font-size: 0.75rem !important;
     }
+
     .preheader2 {
         font-size: 1.05rem !important;
     }
+
     .preheader3 {
         font-size: 1.4rem !important;
     }
@@ -3108,9 +3115,11 @@ h6,
     .preheader {
         font-size: 0.875rem !important;
     }
+
     .preheader2 {
         font-size: 1.1rem !important;
     }
+
     .preheader3 {
         font-size: 1.3rem !important;
     }
@@ -3214,9 +3223,11 @@ h6,
     .preheader {
         font-size: 0.875rem !important;
     }
+
     .preheader2 {
         font-size: 1.1rem !important;
     }
+
     .preheader3 {
         font-size: 1.6rem !important;
     }
@@ -3247,14 +3258,13 @@ h6,
 }
 
 
-
-@media (min-width:576px) {
+@media (min-width: 576px) {
     .w-sm-100 {
         width: 100% !important;
     }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .w-lg-auto {
         width: auto !important;
     }
@@ -3494,7 +3504,6 @@ button.slick-prev:hover {
 
     display: block;
 }
-
 
 
 .slick-track:before,
@@ -4021,14 +4030,13 @@ button.slick-prev:hover {
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
     .cc-btn {
         white-space: normal
     }
 }
 
-@media screen and (max-width:414px) and (orientation:portrait),
-screen and (max-width:736px) and (orientation:landscape) {
+@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
     .cc-window.cc-top {
         top: 0
     }
@@ -4074,7 +4082,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 
     .cc-window.cc-banner .cc-message {
         margin-right: 0
-            
+
     }
 }
 
@@ -4106,8 +4114,9 @@ screen and (max-width:736px) and (orientation:landscape) {
     border-radius: 0;
     font-size: 1em;
     transition: all 300ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
-    
+
 }
+
 .cc-floating.cc-type-info.cc-theme-classic .cc-btn:hover {
     transition: all 300ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
     padding: 1.25rem 72px;
@@ -4137,9 +4146,9 @@ screen and (max-width:736px) and (orientation:landscape) {
     margin-left: 0
 }
 
-#hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.74)), url(/is-imvu-worth-it-800x400.png) top center ;
-    background-size:40% 50%;
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.74)), url(/is-imvu-worth-it-800x400.png) top center;
+    background-size: 40% 50%;
     color: #ffffff;
 }
 
@@ -4164,4 +4173,8 @@ screen and (max-width:736px) and (orientation:landscape) {
 #hero .btn-get-started:hover {
     background: #2437ff;
     border: 2px solid #2437ff;
+}
+
+.fed {
+    background: linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.71)), url(/fed.png) top center;
 }
