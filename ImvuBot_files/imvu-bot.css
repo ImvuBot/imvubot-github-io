@@ -4136,3 +4136,13 @@ screen and (max-width:736px) and (orientation:landscape) {
 .cc-floating.cc-theme-edgeless .cc-btn + .cc-btn {
     margin-left: 0
 }
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.74)), url(/ImvuBot_files/is-imvu-worth-it-800x400.png) top center ;
+    background-size:40% 50%;
+    color: #ffffff;
+}
+
+#hero .text-black-50 {
+    color: rgb(255, 255, 255) !important;
+}
