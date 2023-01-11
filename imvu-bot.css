@@ -4138,7 +4138,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 }
 
 #hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.74)), url(/ImvuBot_files/is-imvu-worth-it-800x400.png) top center ;
+    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.74)), url(/is-imvu-worth-it-800x400.png) top center ;
     background-size:40% 50%;
     color: #ffffff;
 }
