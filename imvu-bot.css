@@ -4178,3 +4178,11 @@ button.slick-prev:hover {
 .fed {
     background: linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.71)), url(/fed.png) top center;
 }
+
+.fed2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.71)), url(/imvu-run.png) top center !important;
+}
+
+.fed3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.71)), url(/fed.png) top center;
+}
