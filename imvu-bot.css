@@ -4190,20 +4190,24 @@ button.slick-prev:hover {
 body {
     margin-top: 20px;
 }
+
 .timeline_area {
     position: relative;
     z-index: 1;
 }
+
 .single-timeline-area {
     position: relative;
     z-index: 1;
     padding-left: 180px;
 }
+
 @media only screen and (max-width: 575px) {
     .single-timeline-area {
         padding-left: 100px;
     }
 }
+
 .single-timeline-area .timeline-date {
     position: absolute;
     width: 180px;
@@ -4223,11 +4227,13 @@ body {
     justify-content: flex-end;
     padding-right: 60px;
 }
+
 @media only screen and (max-width: 575px) {
     .single-timeline-area .timeline-date {
         width: 100px;
     }
 }
+
 .single-timeline-area .timeline-date::after {
     position: absolute;
     width: 3px;
@@ -4238,6 +4244,7 @@ body {
     right: 30px;
     z-index: 1;
 }
+
 .single-timeline-area .timeline-date::before {
     position: absolute;
     width: 11px;
@@ -4250,6 +4257,7 @@ body {
     z-index: 5;
     margin-top: -5.5px;
 }
+
 .single-timeline-area .timeline-date p {
     margin-bottom: 0;
     color: #020710;
@@ -4257,6 +4265,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
+
 .single-timeline-area .single-timeline-content {
     position: relative;
     z-index: 1;
@@ -4268,11 +4277,13 @@ body {
     box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
     border: 1px solid #ebebeb;
 }
+
 @media only screen and (max-width: 575px) {
     .single-timeline-area .single-timeline-content {
         padding: 20px;
     }
 }
+
 .single-timeline-area .single-timeline-content .timeline-icon {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -4287,22 +4298,27 @@ body {
     border-radius: 50%;
     margin-right: 15px;
 }
+
 .single-timeline-area .single-timeline-content .timeline-icon i {
     color: #ffffff;
     line-height: 30px;
 }
+
 .single-timeline-area .single-timeline-content .timeline-text h6 {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
+
 .single-timeline-area .single-timeline-content .timeline-text p {
     font-size: 13px;
     margin-bottom: 0;
 }
+
 .single-timeline-area .single-timeline-content:hover .timeline-icon,
 .single-timeline-area .single-timeline-content:focus .timeline-icon {
     background-color: #020710;
 }
+
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
     color: #3f43fd;
@@ -4317,34 +4333,39 @@ body {
 }
 
 .abf-frame p {
-    font-family: Helvetica!important;
+    font-family: Helvetica !important;
     line-height: 18px;
-    margin: 0!important;
-    padding: 0!important
+    margin: 0 !important;
+    padding: 0 !important
 }
+
 .abf-frame {
-    color: #000!important;
-    background-color: #fff!important;
-    font-family: Helvetica!important;
+    color: #000 !important;
+    background-color: #fff !important;
+    font-family: Helvetica !important;
     width: 420px;
     max-height: 600px;
     margin-top: 0;
     text-align: left;
-    box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     font-size: 12px;
     margin: auto;
 }
+
 .abf-frame a {
-    font-family: Helvetica!important;
-    color: #6A8FC2!important
+    font-family: Helvetica !important;
+    color: #6A8FC2 !important
 }
+
 .abf-frame a:hover {
-    color: #676573!important
+    color: #676573 !important
 }
+
 .abf-form {
     padding: 0 24px 24px
 }
+
 .abf-header {
     display: flex;
     flex-direction: row;
@@ -4353,30 +4374,36 @@ body {
     padding: 5px 24px;
     min-height: 93px
 }
+
 .abf-header div:nth-child(1) img {
     display: inline-block;
     margin: 5px 0
 }
+
 .abf-ash1 {
     text-align: center;
     font-size: 14px;
     margin: 12px 0
 }
+
 .abf-ash2 {
     font-size: 14px;
     text-align: center;
     margin: 12px 0;
     font-weight: 700
 }
+
 .abf-topline {
-    border-top: 1px solid #dedede!important;
+    border-top: 1px solid #dedede !important;
     padding-top: 12px
 }
+
 .abf-list-item {
     padding: 4px 0;
     display: flex;
     align-items: baseline
 }
+
 .abf-label {
     display: inline-block;
     width: 45%;
@@ -4387,37 +4414,43 @@ body {
     opacity: .5;
     text-align: right
 }
+
 .abf-value {
     display: inline-block;
     width: 48%;
     box-sizing: border-box
 }
+
 .abf-confirmations {
     display: inline-block;
-    background-color: #dc3545!important;
+    background-color: #dc3545 !important;
     width: 12px;
     height: 12px;
     font-size: 9px;
     line-height: 12px;
     text-align: center;
-    color: #fff!important;
+    color: #fff !important;
     border-radius: 50%;
     margin-left: 3px
 }
+
 .abf-green {
-    background-color: #28a745!important
+    background-color: #28a745 !important
 }
+
 .abf-img-height {
     height: 230px
 }
-.abf-qr{
+
+.abf-qr {
 
 }
-.marginAuto{
-  margin: auto;
+
+.marginAuto {
+    margin: auto;
 }
 
-.paymentCaption{
+.paymentCaption {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -4436,4 +4469,42 @@ body {
 .payIcon {
     margin-right: 20px;
     margin-left: 40px;
+}
+
+.accordion {
+    max-width: 80% !important;
+    margin: auto;
+}
+
+@media all and (max-width: 460px) {
+    .accordion-body {
+        padding-left: 0 !important;
+    }
+
+    .abf-header, .abf-form {
+        padding-left: 0 !important;
+    }
+
+    .abf-ash2,
+    .paymentCaption{
+        font-size: 13px;
+        text-align: left !important;
+        padding-left: 10px;
+    }
+
+    .abf-frame {
+        width: 350px !important;
+    }
+
+    .accordion {
+        max-width: 100% !important;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 770px) {
+
+    .accordion {
+        max-width: 100% !important;
+    }
 }
