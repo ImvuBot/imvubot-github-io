@@ -4486,7 +4486,7 @@ body {
     }
 
     .abf-ash2,
-    .paymentCaption{
+    .paymentCaption {
         font-size: 13px;
         text-align: left !important;
         padding-left: 10px;
@@ -4508,3 +4508,14 @@ body {
         max-width: 100% !important;
     }
 }
+
+.contacts {
+    font-size: 45px;
+}
+
+.helpBlock {
+
+}
+    nav {
+        height: 66px;
+    }
