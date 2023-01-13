@@ -65,13 +65,16 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZZSBZW"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-<!-- End Google Tag Manager (noscript) -->
-<nav id="static-desktop" class="container navbar navbar-expand-sm navbar-light static-top my-3 d-none d-lg-flex">
+<!-- Back to top button -->
+
+<!--
+&lt;!&ndash; End Google Tag Manager (noscript) &ndash;&gt;
+<nav id="static-desktop" class="navbar navbar-expand navbar-light static-top my-3 d-none d-lg-flex">
     <div class="container">
         <a class="navbar-brand" href="#hero"><img src="imvuBot-logo-small.svg"></a>
     </div>
 </nav>
-<nav id="sticky" class="container navbar navbar-dark bg-nav navbar-expand-xl fixed-top mb-3 oov">
+<nav id="sticky" class="container navbar navbar-dark bg-nav navbar-expand fixed-top mb-3 oov">
     <div class="container container-fix">
         <a class="navbar-brand" href="#hero"><img src="nitreo-logo-light-small.svg" alt="Imvu"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -100,7 +103,7 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav>-->
 <div id="mobile-brand" class="d-flex d-lg-none justify-content-between align-items-center mt-1 mb-3">
     <a class="ml-3" href="https://imvubot-github-io.github.io/"><img src="imvuBot-logo-small.svg" width="75px" alt="ImvuBot Logo"></a> <a
         href="#pricing" class="btn btn-primary-light" data-toggle="modal" data-target="#signup">Get Started Now</a>
@@ -114,7 +117,7 @@
                 <p class="lead text-black-50">Get more Imvu followers with ImvuBot. Grow your account, sell you creations, and <span
                         class="font-weight-bold text-primary">earn money with ImvuBot</span>.</p>
                 <div class="d-inline-block my-3">
-                    <a href="#pricing" class="btn-get-started ">Pay right now!</a>
+                    <a href="#download" class="btn-get-started ">Try right now!</a>
                 </div>
             </div>
             <div class="col-md-12 offset-lg-1 col-lg-4 col-xl-4">
@@ -273,12 +276,17 @@
             </div>
         </div>
     </div>
-    <div class="container" id="download2">
+    <div class="container downloadContainer" id="download">
+        <br>
+        <br>
         <div class="row align-items-center justify-content-center my-5">
             <div class="col-md-12 col-lg-10 col-xl-8 text-left text-lg-center">
                 <div class="label py-2 px-2 mb-3 preheader">Download to try for free and get first free subscriptions</div>
-                <p class="lead text-black-50">ImvuBot has every week updates and daile 5/7 support.
-                <h2 class="mb-3">Coming this friday 13 january</h2>
+                <p class="lead text-black-50">ImvuBot has every week updates and <a href="#footerContacts">daile 5/7 support.</a>
+                <div>
+                    <a class="my-3 btn btn-primary" href="assets/download/ImvuBot7MacM1.zip">Download MacOS m1 version</a>
+                </div>
+                <h4 class="mb-3">Coming soon other versions</h4>
             </div>
         </div>
 
@@ -800,12 +808,12 @@
             </div>
         </div>
     </div>
-    <div class="container" id="download">
+    <div class="container downloadContainer" id="download2">
         <div class="row align-items-center justify-content-center my-5">
             <div class="col-md-12 col-lg-10 col-xl-8 text-left text-lg-center">
                 <div class="label py-2 px-2 mb-3 preheader">Join Smart ImvuBot Creators community</div>
                 <h2 class="mb-3">Download to try for free</h2>
-                <p class="lead text-black-50">ImvuBot has every week updates and daile 5/7 support.
+                <p class="lead text-black-50">ImvuBot has every week updates and <a href="#footerContacts">daile 5/7 support.</a>
                 <h2 class="mb-3">Coming this friday 13 january</h2>
             </div>
         </div>
@@ -1002,6 +1010,13 @@
     </div>
 </div>
 
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+>
+    <i class="fas fa-arrow-up"></i>
+</button>
 
 <div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;">
     <div id="mouseposition-extension-element-rect-display"
@@ -1022,6 +1037,33 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+<script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 <script>
     function extracted(spanClass, symbol) {
         var montPriceUsd = 15;
