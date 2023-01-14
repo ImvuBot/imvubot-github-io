@@ -4134,6 +4134,14 @@ body {
     background-color: #62f10f;
 }
 
+.done .single-timeline-content .timeline-icon {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 30px;
+    height: 30px;
+    background-color: #62f10f;
+}
+
 .abf-frame p {
     font-family: Helvetica !important;
     line-height: 18px;
@@ -4379,4 +4387,11 @@ body {
     bottom: 20px;
     right: 20px;
     display: none;
+}
+.downloadContainer p {
+    font-size: 25px;
+}
+.videoVideo{
+    width: 788px !important;
+    height: 443px !important;
 }
